@@ -4,7 +4,7 @@
 
 load_time = float(input("Enter load time: "))
 
-if load_time == 3:
-    print(f"Page loaded in {load_time} seconds")
+if load_time <= 3:
+    print(f"Page loaded successfully : {load_time} seconds")
 else:
-    print("Page loaded too slow")
+    print(f"Page loaded too slow : {load_time} seconds")
