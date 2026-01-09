@@ -1,10 +1,12 @@
 # Given a number, you need to calculate the factorial of that number
-import math
 
-n = 5           # number to find factorial
+# range = (start, stop, step)
+# range = (stating number, n-1, difference between numbers)
+
+n = int(input("Enter a number for which you need factorial for :"))   # number to find factorial
 fact = 1        # Variable to store factorial
 
-for i in range(1,6):
+for i in range(1,n+1): # n+1 gives the exact range till n, becoz stop = n-1
     fact = fact * i
-print("Factorial of", n, "is", fact)
+print(f"Factorial of {n}", "is", fact)
 
