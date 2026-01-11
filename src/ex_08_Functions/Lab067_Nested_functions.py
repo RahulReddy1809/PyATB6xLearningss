@@ -1,3 +1,5 @@
+# Function within the function --> Nested Function
+
 def f1(): # declaring outside
     print("Hi")
     def f2(): # declaring inside
