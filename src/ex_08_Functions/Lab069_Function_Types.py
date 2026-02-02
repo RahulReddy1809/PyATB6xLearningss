@@ -9,7 +9,7 @@
 import math
 
 # Built-in Function
-number = max(10,25)
+number = max(10,25,30,18)
 print(number)
 
 # 1. They can't return -- non return
